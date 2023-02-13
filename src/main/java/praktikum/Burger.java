@@ -17,6 +17,10 @@ public class Burger {
     public void setBuns(Bun bun) {
         this.bun = bun;
     }
+    //добавленный метод getBuns
+    public Bun getBuns() {
+        return bun;
+    }
 
     public void addIngredient(Ingredient ingredient) {
         ingredients.add(ingredient);
