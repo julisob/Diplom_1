@@ -6,7 +6,7 @@ import praktikum.Bun;
 public class BunTest {
     private final String bunName = "С кунжутом";
     private final float bunPrice = 85;
-    Bun bun;
+    private Bun bun;
 
     @Before
     public void createNewBun() {

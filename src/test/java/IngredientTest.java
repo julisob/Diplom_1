@@ -26,7 +26,7 @@ public class IngredientTest {
         this.price = price;
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Проверка ингредиентов. Тестовые данные: {0} {1} {2}")
     public static Object[][] checkIngredient() {
 
         return new Object[][] {
